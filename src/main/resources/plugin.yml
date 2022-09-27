@@ -1,0 +1,4 @@
+name: zStaffChat
+author: Trixkz
+version: ${project.version}
+main: xyz.trixkz.zstaffchat.Main

@@ -1,0 +1,54 @@
+staff-command:
+  no-console: "Only players can execute this command"
+  help:
+    - "&8&m--------------------------------------------------"
+    - "&bStaff Commands"
+    - "&8&m--------------------------------------------------"
+    - "&8* &7/staff add <player> &8(&7&oAdd a staff member.&8)"
+    - "&8* &7/staff remove <player> &8(&7&oRemove a staff member.&8)"
+    # /staff list command coming soon
+    # - "&8* &7/staff list &8(&7&oShows all of the staff members.&8)"
+    - "&8&m--------------------------------------------------"
+  added: "&aAdded staff member '(target)'"
+  removed: "&cRemoved staff member '(target)'"
+  not-online: "&cThis player is not currently online"
+  already-a-staff-member: "&cThis player is already a staff member"
+  not-a-staff-member: "&cThis player is not a staff member"
+
+admin-command:
+  no-console: "Only players can execute this command"
+  help:
+    - "&8&m--------------------------------------------------"
+    - "&bAdmin Commands"
+    - "&8&m--------------------------------------------------"
+    - "&8* &7/admin add <player> &8(&7&oAdd an admin.&8)"
+    - "&8* &7/admin remove <player> &8(&7&oRemove an admin.&8)"
+    # /admin list command coming soon
+    # - "&8* &7/admin list &8(&7&oShows all of the admins.&8)"
+    - "&8&m--------------------------------------------------"
+  added: "&aAdded admin '(target)'"
+  removed: "&cRemoved admin '(target)'"
+  not-online: "&cThis player is not currently online"
+  already-an-admin: "&cThis player is already an admin"
+  not-an-admin: "&cThis player is not an admin"
+
+staffchat-command:
+  no-console: "Only players can execute this command"
+  usage: "&cUsage: /staffchat <message>"
+  message: "&7[&9S&7] &7[(server)] &3(player): &b(message)"
+  staff-members-only: "&cThis command is for staff members only"
+
+announce-command:
+  usage: "&cUsage: /announce <message>"
+  message: "&7[&bAlert&7] &f(message)"
+
+message-command:
+  no-console: "Only players can execute this command"
+  usage: "&cUsage: /msg <player> <message>"
+  player-to-target-message: "&7[&2M&7] &7[(server)] &aTo (target): &7(message)"
+  target-to-player-message: "&7[&2M&7] &7[(server)] &aFrom (player): &7(message)"
+  not-online: "&cThis player is not currently online"
+
+staffchat:
+  prefix: "#"
+  message: "&7[&9S&7] &7[(server)] &3(sender): &b(message)"
